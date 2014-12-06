@@ -12,4 +12,6 @@ package com.jwzhangjie.andbase.util;
 public class JieContant {
 
 	public static final int RESULT_OK = -1;
+	
+	public static final String URL_Base = "";//项目的基础地址
 }
