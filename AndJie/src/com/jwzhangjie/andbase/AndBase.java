@@ -1,11 +1,10 @@
 package com.jwzhangjie.andbase;
 
-import android.app.Activity;
-import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
+import com.jwzhangjie.andbase.ui.base.BaseChangeFragments;
 
-public class AndBase extends Activity {
+import android.os.Bundle;
+
+public class AndBase extends BaseChangeFragments {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
