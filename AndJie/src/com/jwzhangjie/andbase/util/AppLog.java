@@ -3,7 +3,12 @@ package com.jwzhangjie.andbase.util;
 import com.jwzhangjie.andbase.BuildConfig;
 
 /**
- * Wrapper API for sending log output.
+ * title: AppLog.java
+ * @author jwzhangjie
+ * Date: 2014-12-6 下午3:22:57
+ * version 1.0
+ * {@link http://blog.csdn.net/jwzhangjie}
+ * Description: Wrapper API for sending log output.
  */
 public class AppLog {
 	protected static final String TAG = "jwzhangjie";
