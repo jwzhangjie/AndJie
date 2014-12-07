@@ -17,4 +17,13 @@
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
 
+     <style name="popupAnimation" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/in_from_bootom</item>
+        <item name="android:windowExitAnimation">@anim/out_to_bootom</item>
+    </style>
+
+    <style name="popupAnimationFromTop" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/in_from_top</item>
+        <item name="android:windowExitAnimation">@anim/out_to_top</item>
+    </style>
 </resources>

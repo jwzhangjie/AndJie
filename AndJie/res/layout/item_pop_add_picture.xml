@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_add_picture"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/size_20dip"
+    android:paddingTop="@dimen/size_30dip" >
+
+    <TextView
+        android:id="@+id/pop_add_pic_from_camera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/size_10dip"
+        android:background="@drawable/bg_item_list_2"
+        android:gravity="center"
+        android:text="@string/select_pic_from_camera"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/size_20sp" />
+
+    <TextView
+        android:id="@+id/pop_add_pic_from_photo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/size_10dip"
+        android:background="@drawable/bg_item_list_2"
+        android:gravity="center"
+        android:text="@string/select_pic_from_phone"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/size_20sp" />
+
+    <TextView
+        android:id="@+id/pop_add_pic_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:background="@drawable/bg_item_list_3"
+        android:gravity="center"
+        android:text="@string/cancel_name_CN"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/size_20sp" />
+
+</LinearLayout>
