@@ -1,37 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/parent_scroll"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical" >
 
-    <LinearLayout
+    <com.jwzhangjie.andbase.widget.TitleNavigate
+        android:id="@+id/nav_title_bar"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical" >
+        android:layout_height="wrap_content" />
 
-        <!-- 添加其他布局 -->
+    <ScrollView
+        android:id="@+id/parent_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
 
-
-        <!-- 滑动的EditText -->
-
-        <com.jwzhangjie.andbase.widget.InnerScrollView
-            android:id="@+id/child_scroll"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" >
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
 
-            <LinearLayout
+            <!-- 添加其他布局 -->
+
+
+            <!-- 滑动的EditText -->
+
+            <com.jwzhangjie.andbase.widget.InnerScrollView
+                android:id="@+id/child_scroll"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical" >
+                android:layout_height="wrap_content" >
 
-                <EditText
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="@string/account_content"
-                    android:lines="4" />
-            </LinearLayout>
-        </com.jwzhangjie.andbase.widget.InnerScrollView>
-    </LinearLayout>
+                    android:orientation="vertical" >
 
-</ScrollView>
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/account_content"
+                        android:lines="4" />
+                </LinearLayout>
+            </com.jwzhangjie.andbase.widget.InnerScrollView>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

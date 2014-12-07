@@ -3,8 +3,10 @@
 
     <dimen name="size_12sp">12sp</dimen>
     <dimen name="size_16sp">16sp</dimen>
+    <dimen name="size_18sp">18sp</dimen>
     
     <dimen name="size_4dip">4dip</dimen>
+    <dimen name="size_10dip">10dip</dimen>
     <dimen name="size_20dip">20dip</dimen>
 
 </resources>

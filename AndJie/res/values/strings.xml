@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">AndBase</string>
+    <string name="app_name">AndJie</string>
     <string name="hello_world">Hello world!</string>
     <string name="account_content">在ScrollView里面可以滑动的EditText</string>
+
+    <!-- common -->
+    <string name="back_name_CN">返回</string>
 
 </resources>

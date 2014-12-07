@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/title_navigation_other_bg" >
+
+    <TextView
+        android:id="@+id/leftView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/app_name"
+        android:drawableLeft="@drawable/icon_navigate"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/size_10dip"
+        android:text="@string/back_name_CN"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/size_18sp" />
+
+    <TextView
+        android:id="@+id/middleView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/app_name"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/size_20dip" />
+
+    <TextView
+        android:id="@+id/rightView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:padding="@dimen/size_10dip"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/size_18sp" />
+
+    <TextView
+        android:id="@+id/rightView_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/rightView"
+        android:contentDescription="@string/app_name"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/size_18sp"
+        android:visibility="gone" />
+
+</RelativeLayout>
