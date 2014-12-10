@@ -8,6 +8,7 @@
     <!-- common -->
     <string name="back_name_CN">返回</string>
     <string name="cancel_name_CN">取消</string>
+    <string name="waiting_name">请稍等，数据加载中</string>
     
     <string name="select_pic_from_phone">从手机相册选择</string>
     <string name="select_pic_from_camera">拍照</string>

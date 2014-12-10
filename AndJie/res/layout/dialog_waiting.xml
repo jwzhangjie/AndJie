@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_loading_dialog"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <ProgressBar
+        android:id="@+id/waitingDialogId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size_10dip"
+        android:background="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/waitingInfoId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/size_20dip"
+        android:layout_marginLeft="@dimen/size_30dip"
+        android:layout_marginRight="@dimen/size_30dip"
+        android:layout_marginTop="@dimen/size_10dip"
+        android:text="@string/waiting_name"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>
